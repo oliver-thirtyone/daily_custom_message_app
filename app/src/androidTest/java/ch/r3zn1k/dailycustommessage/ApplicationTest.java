@@ -1,4 +1,4 @@
-package com.journaldev.webview;
+package ch.r3zn1k.dailycustommessage;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

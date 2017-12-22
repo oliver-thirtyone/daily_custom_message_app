@@ -1,4 +1,4 @@
-package com.journaldev.webview;
+package ch.r3zn1k.dailycustommessage;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -17,7 +17,7 @@ public class WebViewClientImpl extends WebViewClient {
 
     @Override
     public boolean shouldOverrideUrlLoading(WebView webView, String url) {
-        if(url.indexOf("journaldev.com") > -1 ) return false;
+        if(url.indexOf("daily.r3zn1k.ch") > -1 ) return false;
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         activity.startActivity(intent);
